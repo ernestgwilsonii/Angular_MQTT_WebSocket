@@ -1,14 +1,20 @@
 # AngularMQTTWebSocket
 
 ```
+# Raspberry Pi prerequisites
+#curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+#sudo apt-get install -y nodejs gcc g++ make
+#sudo npm install @angular/cli -g
+
 # Initial setup
-sudo npm install angular/cli -g
+#sudo npm install angular/cli -g
 # Install routing and select SCSS
-ng new Angular_MQTT_WebSocket
+#ng new Angular_MQTT_WebSocket
 
 # Developer setup
 git clone git@github.com:ernestgwilsonii/Angular_MQTT_WebSocket.git
 cd Angular_MQTT_WebSocket
+npm install
 ng serve
 ```
 
