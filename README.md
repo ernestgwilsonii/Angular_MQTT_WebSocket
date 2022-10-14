@@ -12,10 +12,13 @@
 #ng new Angular_MQTT_WebSocket
 
 # Developer setup
+#################
 git clone git@github.com:ernestgwilsonii/Angular_MQTT_WebSocket.git
 cd Angular_MQTT_WebSocket
 npm install
 ng serve
+# For remote access:
+#ng serve --host $(hostname -I | awk '{print $1}') --disable-host-check
 ```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
