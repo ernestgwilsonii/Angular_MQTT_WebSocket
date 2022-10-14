@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular_MQTT_WebSocket';
+  someValue:string="";
+  someValues:Array<string> = new Array<string>();
+  CallSomeFunction(){
+    this.someValues.push(this.someValue);
+    this.someValue="";
+  }
 }
