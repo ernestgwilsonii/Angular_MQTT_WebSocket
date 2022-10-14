@@ -19,6 +19,11 @@ npm install
 ng serve
 # For remote access:
 #ng serve --host $(hostname -I | awk '{print $1}') --disable-host-check
+
+# MQTT support was added
+# REF: https://medium.com/@anant.lalchandani/dead-simple-mqtt-example-over-websockets-in-angular-b9fd5ff17b8e
+# REF: https://sclausen.github.io/ngx-mqtt/
+#npm i ngx-mqtt --save
 ```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
