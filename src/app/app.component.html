@@ -1,5 +1,7 @@
-<input type="text" [(ngModel)]="someValue"/>
-<input type="button" value="Clicky" (click)="CallSomeFunction()"/><br>
+<!--Just-messing-around-->
+<h1>Just messing aound</h1>
+<input type="text" [(ngModel)]="someValue" />
+<input type="button" value="Clicky" (click)="CallSomeFunction()" /><br>
 <b>{{someValue}}</b> <br>
 {{1+1}} <br>
 <table>
@@ -14,3 +16,26 @@
     </td>
   </tr>
 </table>
+
+<!--MQTT-->
+<h1>MQTT</h1>
+<table>
+  <tr>
+    <td>Topic: </td>
+    <td><input [(ngModel)]="topicname" type="text" /></td>
+    <td><button type="button" (click)="subscribeNewTopic()">Subscribe Topic</button></td>
+  </tr>
+  <tr>
+    <td>Message: </td>
+    <td><input [(ngModel)]="msg" type="text" /></td>
+    <td><button type="button" (click)="sendmsg()">Send</button></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>&nbsp;&nbsp;<button type="button" (click)="clear()">Clear Log</button></td>
+    <td></td>
+  </tr>
+</table>
+<br /><br />
+<div #msglog>
+</div>

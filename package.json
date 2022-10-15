@@ -18,9 +18,11 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
+    "mqtt-browser": "^4.2.7",
     "ngx-mqtt": "^9.0.5",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "xtend": "^4.0.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
